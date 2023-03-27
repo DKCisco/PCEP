@@ -20,3 +20,6 @@ answer_int = int(answer)
 
 print(answer * 7)
 print(answer_int * 7)
+
+myNewValue = bool("False")
+print(myNewValue)
