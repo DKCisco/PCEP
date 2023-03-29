@@ -26,7 +26,7 @@ print(type(div_1))
 # This equals 125
 exp_1 = 5 ** 3
 
-# This equals 3
+# This equals 3 
 
 floor = 83 // 25
 print(floor)
