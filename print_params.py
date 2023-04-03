@@ -7,3 +7,5 @@ print("Hello", "Ben ","ThirdValue", sep=":")
 
 print("Hello", end="")
 print("Goodbye")
+
+print("Hello", "Ben ","ThirdValue", end="\n", sep=":")
