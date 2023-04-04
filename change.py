@@ -12,7 +12,8 @@ changeAmt -= (numNickels * 5)
 numPennies = int(changeAmt // 1) #Figure out number of pennies
 changeAmt -= (numPennies * 1)
 
-print("Quarters: " + str(numQtrs))
-print("Dimes: " + str(numDimes))
-print("Nickels: " + str(numNickels))
-print("Pennies: " + str(numPennies))
+print("Quarters: ",numQtrs)
+print("Dimes: %s" % numDimes)
+print("Nickels: {}".format(numNickels))
+print(f"Pennies: {numPennies}")
+print(f"Final change amount: {changeAmt}")
