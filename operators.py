@@ -25,4 +25,3 @@ if "a" not in name1:
     print("Nope not this one")
     
 print(r"Hello\r\nThere")
-print(upper("BobHadABabyItsABoy"))
