@@ -11,3 +11,5 @@ value = name1.split()
 print(value[2])
 print(ord("\t"))
 print(chr(65))
+
+print(len(value))
