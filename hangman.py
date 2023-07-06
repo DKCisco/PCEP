@@ -37,7 +37,7 @@ while failure_count > 0:
         else:
             print("_", end="")
             wrong_letter_count += 1
-        
+    print("")
     # If there were no wrong letters, then the player won!
     if wrong_letter_count == 0:
         print(f"Congrats! The secret word was: {secret_word}. You won!")
